@@ -1,0 +1,82 @@
+<div class="bs-video-player">
+    <h1 class="video-title">TTILE: <span>EPISODE</span></h1><!--more-->
+    <ul class="player-options">
+        
+    <ul class="bs-iframes">
+        <li class="active">
+            IFRAME1
+        </li>
+        
+
+    <ul class="bs-video-controls">
+        <li>
+            <a href="#!" class="control">
+                <i class="fa-solid fa-arrow-left"></i>
+                Anterior
+            </a>
+        </li>
+        <li>
+            <a href="#" class="control">
+                <i class="fa-solid fa-list"></i>
+                Lista
+            </a>
+        </li>
+        <li>
+            <a href="#!" class="control">
+                Siguiente
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<script>
+const opcionesVideo=document.querySelector(".player-options").querySelectorAll("li"),videoIframes=document.querySelector(".bs-iframes").querySelectorAll("li");opcionesVideo.forEach((e,o)=>{e.addEventListener("click",()=>{opcionesVideo.forEach((e,o)=>{e.classList.remove("active"),videoIframes[o].classList.remove("active")}),e.classList.add("active"),videoIframes[o].classList.add("active")})});
+</script>
+
+
+
+MOVIES 
+
+
+<div class="post-header">
+<div class="image-and-btn">
+<img src="https://i.mydramalist.com/d1yjK_4f.jpg" class="poster-img" alt="" />
+<div class="fav-js">
+<button class="bs-favs" card-id="71347" id="add-btn"><i class="fa-regular fa-heart"></i> Like</button>
+<button class="delete-btn none-btn" card-id="71347" id="remove-btn"><i class="fa-solid fa-trash"></i> Delete Like</button>
+</div>
+</div>
+
+<div class="post-header__info">
+<h1>The 8th Night </h1>
+<ul>
+<li class="tmdb-rate"><i class="fa-solid fa-star"></i> 5.9</li>
+<li>Korean </li>
+<li>2021</li><i class="fa-sharp fa-regular fa-closed-captioning"></i>
+</ul>
+<p class="resume"></p>
+<div class="more-data">
+<p>Genre: Mystery, Thriller, Horror 15
+07/02/2021 (KR)
+1h 55m</p>
+<p>Kim Tae-hyoung
+
+Director, Writer - With prayer beads in one hand and an ax in the other, a monk hunts down a millennia-old spirit that's possessing humans and unleashing hell on Earth. </p>
+</div>
+</div>
+</div>
+
+
+<div class="bs-video-player">
+  
+  
+    <ul class="bs-iframes">
+        <li class="active">
+<iframe src="https://raw.githack.com/NTDKH/Mov/main/The%208th%20Night%20(2021).html" width="1280" height="560" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+        </li>
+        <li>
+             
+        </li>
+        <li>
+
